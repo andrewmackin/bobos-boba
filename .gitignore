@@ -16,4 +16,4 @@ Thumbs.db
 design-journey.md
 documents/
 .vscode
-run.sh
+*.sh
