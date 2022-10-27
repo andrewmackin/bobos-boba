@@ -1,0 +1,321 @@
+/* External Source Notice: I used some of the code from Lab 2 as a skeleton
+for this CSS. However, it is my belief that I sufficiently modified it such
+that it is my own. I am including this notice just as an FYI as not to
+potentially misrepresent my own work. */
+html {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #B88665;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1,
+a {
+  color: #3f2420;
+}
+
+h2 {
+  color: #af7045;
+}
+
+header {
+  color: white;
+  background-color: #cf3434;
+  padding: 1px 10px 30px 10px;
+}
+
+header a {
+  font-weight: bold;
+  color: white;
+}
+
+header .title {
+  color: white;
+  padding: 10px 0;
+}
+
+nav {
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav li {
+  margin: 0;
+  padding: 10px;
+  display: inline;
+}
+
+footer {
+  padding: 10px 10px;
+  background-color: #573e2d;
+  color: white;
+}
+
+footer a {
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  margin: 0 auto;
+}
+
+figure {
+  margin: 20px;
+}
+
+figure img {
+  width: 200px;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+}
+
+#mail {
+  width: 300px;
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+.sort-active {
+  font-weight: bold;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  float: right;
+}
+
+main {
+  position: relative
+}
+
+body li {
+  color: white;
+}
+
+main p {
+  color: #4e241d;
+}
+
+main cite {
+  float: right
+}
+
+.hidden {
+  display: none;
+}
+
+.feedback {
+  color: #cf3434;
+}
+
+textarea {
+  font-family: Arial, sans-serif;
+}
+
+.input-confirmation {
+  font-weight: bold;
+}
+
+.suggest-drink {
+  color: blue
+}
+
+.current-page {
+  color: white;
+  border-color: orange;
+  border-style: solid;
+  padding: 3px 10px 3px 10px;
+  text-decoration: none;
+}
+
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 50px;
+  justify-items: center;
+  padding: 10px 100px 10px;
+}
+
+
+.catalog-tile {
+  padding: .25rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tag-image {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.add-image {
+  width: 200px;
+  height:200px;
+}
+
+.tag-text {
+  padding-top: 3cm;
+}
+.tag-text a {
+  padding-top: 10px;
+  font-size: 16pt;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tag-image:hover {
+  opacity: .7;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 24pt;
+}
+
+.home-subtitle {
+  text-align: center;
+}
+
+.headbar {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 5px;
+  height: 30px;
+}
+
+.banner {
+  width: 81.55%;
+  list-style: none;
+  box-sizing: border-box;
+  height: 50px;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #B88665;
+  color: #000000;
+  font-size: 12pt;
+  font-weight: bold;
+  padding-top: 14px;
+  margin-left: 133px;
+  margin-right: 200px;
+  display: table;
+  padding-right: 40px;
+}
+
+.banner li {
+  display: table-cell;
+  font-weight: normal;
+}
+
+.banner .right {
+  position: relative;
+  text-align: right;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.drink-details, .modify {
+  overflow: auto;
+}
+
+.view-image {
+  float: left;
+  padding: 50px 100px 50px 100px;
+}
+
+.drink-details-text {
+  padding: 50px 50px 50px 100px;
+}
+
+.details-name {
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.details-price {
+  font-size: 16pt;
+}
+
+.details-desc {
+  font-size: 16pt;
+}
+
+.modify-image {
+  float: right;
+  padding: 20px 20px 20px 20px;
+}
+
+.delete-button {
+  background-color: white;
+  text-decoration: underline;
+  color: #cf3434;
+  border: none;
+  font-size: 14pt;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.desc-box {
+  width: 400px;
+}
+
+.login-label {
+  float: left;
+  clear: left;
+  width: 85px;
+  text-align: right;
+  padding-right: 5px;
+  /* padding-top: 1px; */
+}
+.login-input {
+  float: left;
+}
+
+.group_label_input {
+  padding-bottom: 60px;
+}
+
+button {
+  /* background-color: #cf3434; */
+  border:none;
+  border-radius:10px;
+  padding:5px;
+  min-height:12px;
+  min-width: 80px;
+}
+
+.filter-button {
+  margin-left: 10px;
+}
+
+.search-input {
+  height: 20px;
+}
+
+input.filter-box {
+  transform: scale(120%);
+}
+
+.dividing-bar {
+  color: white;
+}
